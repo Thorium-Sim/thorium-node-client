@@ -1,0 +1,24 @@
+{
+  "name": "thorium-node-client",
+  "version": "1.0.0",
+  "description": "A demonstration of how a Node client can connect to a Thorium server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thorium-Sim/thorium-node-client.git"
+  },
+  "author": "Alex Anderson <alexanderson1993@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Thorium-Sim/thorium-node-client/issues"
+  },
+  "homepage": "https://github.com/Thorium-Sim/thorium-node-client#readme",
+  "dependencies": {
+    "bonjour": "^3.5.0",
+    "graphqurl": "^0.3.2"
+  }
+}
