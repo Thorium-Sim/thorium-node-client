@@ -6,7 +6,7 @@ class GraphQLClient {
   constructor(address, port, clientId) {
     this.endpoint = `http://${address}:${parseInt(port, 10) + 1}/graphql`;
     this.subscriptionEndpoint = `ws://${address}:${parseInt(port, 10) +
-      2}/subscriptions`;
+      1}/graphql`;
     this.clientId = clientId;
   }
   query(queryParams) {

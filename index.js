@@ -1,7 +1,5 @@
 // Load up the Bonjour client
 const getThoriumAddress = require("./helpers/bonjour");
-const { getClient } = require("./helpers/graphqlClient");
-const registerClient = require("./helpers/registerClient");
 const startApp = require("./app");
 
 // Override this with the specific name of the client you want to run.
